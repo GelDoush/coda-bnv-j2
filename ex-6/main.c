@@ -14,8 +14,8 @@ int main(void) {
 	printf("\n Hello %s, how old are you ? ", user);
 	scanf("%d",&age);
 
-	birthyearL=YEAR-age;
-	birthyearE=YEAR-age-1;
+	birthyearL=YEAR-age-1;
+	birthyearE=YEAR-age;
 	
 	printf("\n %s, if you were born late year, your birthyear would be %d, if not then it's %d \n", user, birthyearL, birthyearE);
 
